@@ -1,0 +1,10 @@
+SleepyHello.c activities
+
+1. Modify the program so it pauses for 2 seconds.
+ 
+2. Modify the program so that it produces the following output:
+
+Hello, World!
+[pause for 1 second]
+My name is (your name)!
+

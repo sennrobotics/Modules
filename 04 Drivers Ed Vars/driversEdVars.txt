@@ -1,0 +1,10 @@
+driversEdVars.c activites
+
+1. Change the variable name to something other than power
+2. What happens when you remove the int from the variable declaration?
+3. Readd the int in the variable declaration
+4. What happens when you change the variable declaration to another number between 0 and 100?
+5. Create two variables to hold the port nuumbers for the motors.
+6. Modify lines 21 and 22 so that they take the variables as the port numbers instead of the raw numbers.
+7. Create another variable for the msleep and apply it to the msleep instead of having msleep(3000); on line 24
+

@@ -1,0 +1,13 @@
+DriversEd.c activities
+
+1. Modify the program to get the robot to drive forward for 1 second.
+2. Now try 5 seconds.
+3. Comment out the msleep line (this is best practice when you want to remove a line of code instead of deleting it). What happens? What role does msleep play in the program? Uncomment the msleep line before moving on.
+4. Change both motor lines of code to 100 power. How is it different from 50 power? What about 25 power? How could you measure and quantify the differences?
+6. Change one of the motors to 60 power. What happens? How would this configuration be useful?
+7. The ao() function turns all motors off. How would you turn one of the motors off?
+8. Change both motor settings to -50 power. What happens? 
+9. Modify the program to cause the robot to do the following:
+a. Go forward at 50% power to the black line.
+b. Turn left 90 degrees.
+c. Go forward at 50% to the end of the black line.
