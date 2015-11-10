@@ -1,0 +1,14 @@
+This program is intented to teach you the basics of the IR sensor and how the function for the IR sensor works
+
+To initiate the detection of light via the IR sensor, you must call the analog10() function and pass along the port number that the sensor is connected to in the function. For example, if my IR sensor was connected to port 1, I would call the function via analog10(1).
+
+This function will return a value anywhere between 0 and 1000. If the value is lower than 512, then the sensor is detecting a dark color. But if the function returns a number greater than 512, than it is atop a white color.
+
+Given this, we can hook this up with a couple if statements and make our robot do stuff based on the color under it. This sensor can only detect black or white colors because it is an IR sensor and it is only detecting the light put out by a certain surface.
+
+Steps:
+1.Make a couple varables for the power of the wheels so we don't have to keep typing in 75 each time
+2.Make the bot wait 10 secs if it sees a dark color and 5 secs if it sees white
+3.What do you think is the difference between the 'if' and the 'else if'?
+4. What can you do to make the very last else statement run?
+5.Modify the program so it just stops after it hits either the dark or white colors.

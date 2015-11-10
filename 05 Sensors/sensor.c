@@ -13,14 +13,14 @@ int main()
 	motor(0, 75);
 	motor(1, 75);
 	msleep(1000);
-	if(analog10(0)>=512){
+	if(analog10(0)>=512){ //if the color is white
 		printf("I saw a white color!\n");
-		ao();
+		ao(); //turns off all motors so it actually waits for 3 secs
 		msleep(3000);
 	}
 	else if (analog10(0) < 512){
 		printf("I saw a dark color!\n");
-		ao();
+		ao(); //turns off all the motors
 		msleep (3000);
 	}
 	else {
@@ -29,6 +29,7 @@ int main()
 		motor(1, 75);
 		msleep(2000);
 	}
+	//drives again after the robot has tested for the light reflectance
 	motor(0, 75);
 	motor(1, 75);
 	msleep(1500);
