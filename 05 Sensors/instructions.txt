@@ -3,7 +3,7 @@ This program is intended to teach you the basics of the IR (infrared) sensor and
 To detect the values coming from the infrared sensor, the analog() function with the port number the sensor is attached to as the only argument/parameter. For example, if the IR sensor was connected to port 1, you would call the function using the function 
 	analog(1);
 
-This function will return a value anywhere between 0 and 1024 (1024 = 2^10). As the value approaches 0, less infrared energy is detected. As the value approaches 1024, more infrared energy is detected. You will need to work with the engineers to determine what a good 'threshold' value is, but we will start in the middle at 512.
+This function will return a value anywhere between 0 and 1023 (1024 = 2^10). As the value approaches 0, less infrared energy is detected. As the value approaches 1023, more infrared energy is detected. You will need to work with the engineers to determine what a good 'threshold' value is, but we will start in the middle at 512.
 
 
 We can use a new logical structure called an "if-statement" to check whether what the sensor is testing. The basic structure is
