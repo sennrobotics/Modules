@@ -32,5 +32,5 @@ Steps:
 5. Under what circumstances would the very last if/else case run? Why would you need this case?
 
 Challenge:
-Write code that does the following. If you position the robot anywhere in the upper left corner of the game board,
-if moves step by step to the black line. On the black line it turns and follows the black line to the end (of the black line). Use just a series of if-else statements.
+Write code that does the following. If you position the robot in the upper left pink corner of the game board,
+it moves step by step to the black line. On the black line it turns and follows the black line to the end (of the black line). Use just a series of if-else statements.
