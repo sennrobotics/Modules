@@ -2,10 +2,11 @@
 
 # set the units to inches
 set-units in
-set-z -1.0 set as bottom most layer
+set-z -1.0
 
 # draw the game board area 8'x8'
 brush white 
+pen white 1
 dec-rect 0 0 96 96
 
 # draw the borders around
@@ -17,13 +18,13 @@ line 0 96 96 96
 line 96 0 96 96
 
 # draw the start box
-set-z 0.0
+set-z -1
 brush magenta 
 pen white 0
 dec-rect 0 0 12 12
 
 # draw the target black line under the pvc
-
+set-z 0
 pen black 2
-line 0 36 36 36
-line 36 36 36 48
+tape 0 36 36 36
+tape 36 36 36 48

@@ -24,10 +24,10 @@ dec-rect 0 0 12 12
 
 # draw the target black line under the pvc
 pen black 2
-line 0 36 36 36
-line 36 36 36 48
+tape 0 36 36 36
+tape 36 36 36 48
 
-line 36 48 80 24
-line 80 24 80 84
-line 80 84 6 56
-line 6 56 6 96
+tape 36 48 80 24
+tape 80 24 80 84
+tape 80 84 6 56
+tape 6 56 6 96

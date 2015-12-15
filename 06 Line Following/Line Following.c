@@ -26,6 +26,5 @@ int main()
 	ao();
 	
 		// add your challenge code here to get the robot to follow the black line.
-	
 	return 0;
 }
