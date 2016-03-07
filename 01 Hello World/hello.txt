@@ -8,6 +8,4 @@ Hello.c activities
 
 4. What would \t do? 
 
-5. What happens when you add the line display_clear(); ?
-
-6. Remove the semicolon ; after any one statement. What happens when you try to compile? How could the messages you receive help you?
+5. Remove the semicolon ; after any one statement. What happens when you try to compile? How could the messages you receive help you?

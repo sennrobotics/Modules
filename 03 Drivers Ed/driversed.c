@@ -15,8 +15,8 @@ int main()
 		// BEST PRACTICE: print to the console what you are about to do 
 	printf("Drive forward for 3 seconds.\n");	
 	
-	motor(0, 50); // turn on the motor on port 0 at 50% power
-	motor(1, 50); // turn on the motor on port 1 at 50% power
+	mav(0, 100); // turn on the motor on port 0 at
+	mav(1, 100); // turn on the motor on port 1 at 
 
 	msleep(3000); // pause program execution for 3 seconds...the motors will keep going
 	
